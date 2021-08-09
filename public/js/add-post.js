@@ -24,7 +24,7 @@ async function newFormHandler(event) {
     if (response.ok) {
         addPostBtn.classList.remove('hide');
         createPostEl.classList.add('hide');
-        document.location.replace('/dashboard');
+        document.location.replace('/dash');
     } else {
         alert(response.statusText);
     };
